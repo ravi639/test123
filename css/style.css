@@ -1,0 +1,853 @@
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+body 
+{
+	overflow-x: hidden;
+}
+    .envatomarket
+    {
+      height:auto;
+      width: 100%;
+      background: darkgray;
+    }
+    .BUYNOW
+    {
+      background: lightseagreen;
+      height:30px;
+      width: 80px;
+      border-radius: 5px;
+      margin-left:1000px;
+      padding: -9px;
+    }
+    .bootstdap
+    {
+      background: lightskyblue;
+      height: 60px;
+      width: 100%;
+      color: white;
+      text-align: center;
+      line-height: -0px;
+
+
+    }
+     .update
+    {
+      background: white;
+      height:30px;
+      width:76px;
+      text-align: center;
+      font-size: 14PX;
+      line-height: 20PX;
+      margin-left: 400PX;
+      padding: 1px;
+      border-radius: 10px;
+      color: lightskyblue;
+    }
+    .logo-purple
+    {
+      background:tdansparent;
+      height: 100px;
+      width: 100%;
+    }
+    .purple
+    {
+        
+      
+    }
+    .PurchaseNow
+    {
+      background: purple;
+    height:40px ;
+      width: 110px;
+      border-radius: 50px;
+      margin-left: 900px;
+      margin-top: -700px;
+    }
+
+.nav
+    {
+      height: 70px;
+      width: 100%;
+      background:tdansparent;
+      text-align: center;
+      line-height: -100px;
+    /*display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .nav ul
+    {
+      margin: 0;
+      padding: 0;
+      /*display: flex;*/
+      
+    }
+
+    .nav .menu 
+    {
+/*      border: 2px solid;*/
+      display: inline;
+      list-style: none;
+      margin-right: 30px;
+      position: relative;
+      
+    }
+
+
+    .nav .menu a 
+    {
+      text-decoration: none;
+      color: black;
+    }
+
+    .dropdown
+    {
+      position: absolute;
+      top:100%;
+      left: 0;
+
+      display: none;
+    }
+
+    .nav .menu:hover .dropdown
+    {
+      display: block;
+    }
+
+    .menu::after
+    {
+      content:"";
+
+      position: absolute;
+      top:100%;
+      left: 0;
+      height: 5px;
+      width: 0px;
+      background: black;
+      tdansition:.7s;
+    }
+
+    .menu:hover::after
+    {
+      width: 100%;
+    }
+    .img1
+    {
+      margin-left: -1000px;
+      margin-bottom:-25px;
+    }
+    .demos
+    {
+      display: inline;
+      list-style: none;
+      margin-left:-300px;
+      text-decoration: none;
+      list-style: none;
+      padding-left: 100px;
+
+
+    }
+    .demos1
+    {
+      background: black;
+      height: 300px;
+      width: 500px;
+      
+      text-decoration: none;
+      display:none;
+    }
+    .demos:hover .demos1
+    {
+      display: block;
+    }
+    .ul{
+      margin-right:-200px;
+
+    }
+
+    .fa-solid 
+    {
+    	font-size: 20px;
+    	margin-left: 45px;
+    	
+    }
+
+    .Singnin
+    {
+    	background: lightskyblue;
+    	color: white;
+    	padding: 10px;
+    	margin-left: 50px;
+    	border-radius: 50px;
+    	border-style: none;
+    	width: 100px;
+    	height: 50px;
+    	
+    	display:;
+
+    }
+
+    .Singnin:hover
+
+    {
+    	box-shadow: 5px 5px 10px lightskyblue;
+    }
+
+
+    .div1
+    {
+    	height: 500px;
+    	width:1100px;
+    	margin: 20px 80px;
+    	background:rgba(164, 174, 198, 0.2);
+    }
+    .div1-info
+    {
+      height: 500px;
+    }
+    .craft
+    {
+    	font-size: 39px;
+    	padding: 100px;
+    }
+
+    .we
+    {
+    	font-size: 25px;
+    	color: gray;
+    	margin: -70px 100px;
+    }
+
+
+    .ExploreNow
+    {
+      margin: 100px 100px;
+      background: lightskyblue;
+      border-radius: 50px ;
+      height: 40px;
+      width: 100px;
+      border-style: hidden;
+      
+    }
+    .ContactUs
+    {
+    	 background: ;
+      border-radius: 50px;
+      height: 40px;
+      width: 100px;
+      margin-left: -100px;
+      border: 2px solid skyblue;
+
+
+    }
+
+    .ContactUs:hover
+    {
+    	background: lightskyblue;
+    	box-shadow: 0 0  4px gray;
+
+    }
+
+    .co3
+    {
+    	height:450px;
+    	width:400px;
+    	margin-left:600px;
+    	margin-top: -500px;
+      position: relative;
+    }
+
+    .ExploreNow:hover
+    {
+    	margin-top: 10px;
+    }
+
+    .happy
+    {
+      height: 80px;
+      width: 200px;
+      background: white;
+      box-shadow: 0 0 10px black;
+      border-radius: 10px;
+      position: absolute;
+      bottom: 20px;
+      right: -50px;
+    }
+
+    .fa-solid1 
+    {
+      color: lightskyblue ;
+      margin-top: 24px;
+      margin-left: 15px;
+      background: lightcoral;
+      padding:5px;
+      border-radius:20px;
+    }
+
+    .p{
+      text-align: center;
+      margin-top: -20px;
+      font-size: 20px;
+    }
+    .clients
+    {
+      text-align: center;
+      margin-top: -20px;
+      color: gray;
+    }
+
+    .Trusted
+    {
+      height: 300px;
+      width: 100%;
+      background: ;
+      margin-top: 150px;
+    }
+    .over
+    {
+      height: 300px;
+      width: 30%;
+      background:;
+
+    }
+
+    .by
+    {
+      font-size: 46px;
+      margin-bottom: 30px;
+    }
+    .bring
+    {
+      font-size: 25px;
+      color: gray;
+
+    }
+
+    .pic1
+    {
+      height:100px;
+      width:700px;
+      background: ;
+      margin-top: -300px;
+      margin-left: 400px;
+    }
+    .c10
+    {
+      height:50px;
+      width:110px;
+      margin: 20px 20px;
+      margin-left: 30px;
+    }
+
+       .pic2
+    {
+      height:100px;
+      width:700px;
+      background: ;
+      margin-top: -00px;
+      margin-left: 400px;
+    }
+    .Mission
+    {
+      height: 400px;
+      width: 100%;
+      background:;
+    }
+    .round
+    {
+      height:250px;
+      width:250px;
+      background: lightskyblue;
+      border-radius:50%;
+    }
+
+    .about10
+    {
+      height:370px;
+      width:500px;
+      border-radius:10px;
+      margin-left: 80px;
+      margin-top: 60px;
+    }
+
+    .info
+    {
+      height:300px;
+      width:450px;
+      background:;
+      margin-top:-250px;
+      margin-left:600PX;
+      padding:;
+    }
+
+    .who
+    {
+      margin-top: 30px;
+      padding: 11px;
+      text-align: left;
+    }
+
+
+    .digital
+    {
+      
+      padding: 11px;
+      text-align: left;
+      color: gray;
+      font-size: 20px;
+      margin-top: 3px;
+    }
+    .digital1
+    {
+      padding:px;
+      font-size:12px;
+      padding:-0px;
+    }
+
+
+    .cum
+    {
+      
+      padding: 10px;
+      text-align: left;
+      color: gray;
+      font-size: 17px;
+      margin-top: 30px;
+    }
+    .lineal
+    {
+      height:30px;
+      width:30px;
+       margin-left:600PX;
+       margin-top: 20px;
+    }
+    .our
+    {
+       margin-left:670px;
+       margin-top: -40px;
+       font-size:19px;
+      
+
+    }
+
+    .Dapibus1
+    {
+      margin-left:270px;
+      margin-top:-100px;
+    }
+
+    .round1
+    {
+      margin-left:900px;
+        height:250px;
+      width:250px;
+      background: lightskyblue;
+      border-radius:50%;
+      padding: 10PX -400PX;
+    }
+
+    .about11
+    {
+        height:370px;
+      width:500px;
+      border-radius:10px;
+      margin-left:580px;
+      margin-top:-200PX;
+    }
+
+    .info1
+    {
+      margin-left:-30px;
+      margin-top: 50px;
+    }
+
+    .dapi
+    {
+      margin-left:-630px;
+
+    }
+
+    .dapi1
+    {
+      margin-top:10px;
+      margin-left:-620px;
+      font-size:1px;
+    }
+    .dapibus11
+    {
+      margin-left:-700px;
+    }
+     .dapi12
+     {
+        margin-left:-620px;
+        margin-top:100px;
+
+     } 
+
+    .dapi0
+    {
+      margin-top:170px;
+      margin-left:-600px;
+      padding: 0;
+
+    }
+
+    .about12
+    {
+      margin-top: -400px;
+      margin-bottom: 100px;
+
+    }
+
+    .Fusce
+    {
+      height:400px;
+      width:100%;
+      background: lightseagreen;
+      border-radius: 10px;
+    }
+
+    .photo
+    {
+      height:500px;
+      width:300px;
+      margin-top: -100px;
+      margin-left: 100px;
+    }
+
+    .tellus
+    {
+      margin-left:400px;
+      margin-top: -300px;
+      font-size: 23px;
+      text-align: center;
+    }
+
+      .proud
+      {
+        height: 300px;
+        width:100%;
+        background:;
+        margin-top: 100px;
+        display: flex;
+        padding: 30px;
+        margin-top: 100px;
+        padding-top: 100px;
+      }
+
+      .pro1
+      {
+          margin-left: 100px;
+          padding: 3px;
+          text-align: center;
+      }
+
+      .product
+    {
+      height: 300px;
+      width: 200px;
+      background: transparent;
+      position: relative;
+      border-radius: 10px;
+      box-shadow: 10px 15px 0px skyblue;
+    }
+    .prd-img
+    { background: transparent;
+      height: 200px;
+      width: 200px;
+      border-radius: 10px;
+
+    }
+  
+    .info1
+    {
+      height: 100px;
+      width: 200px;
+      background:;
+      text-align: center;
+      padding: 10px 0px;
+      margin-top: 20px;
+      margin-left: 0px;
+    }
+   
+    .product-card
+    {
+      display: flex;
+      /*flex-wrap: wrap;*/
+
+/*       box-shadow: 10px 15px 0px skyblue;*/
+       padding-left: 50px;
+       border-radius: 10px;
+
+
+    }
+
+    .Brings1
+    {
+      height: 400px;
+      width: 100%;
+      background:;
+      margin-top: 400px;
+      margin-left: -1000px;
+    }
+
+    .playBtn
+    {
+      height: 80px;
+      width: 80px;
+      background: lightblue;
+      border-radius: 50%;
+      margin: 250px 250px;
+      text-align: center;
+      line-height: 80px;
+      position: relative;
+      z-index: 0;
+      font-size: 20px;
+      margin-left: 210px;
+      margin-top: -250px;
+    }
+
+    .effect1,.effect2
+    {
+      height: 80px;
+      width: 80px;
+      background: lightblue;
+      border-radius: 50%;
+      position: absolute;
+      top:0;
+      left: 0;
+      z-index: -1;
+      transition: 0.5s;
+
+      
+    }
+    .effect1
+    {
+      animation: Had_He 1s infinite;
+    }
+
+    .effect2
+    {
+      animation: Had_He_part_2 1s infinite;
+    }
+    /*.playBtn:hover .effect
+    {
+      transform: scale(1.2);
+    }*/
+
+    @keyframes Had_He
+    {
+      from{transform: scale(1.0);opacity: 1}
+      to{transform: scale(1.5);opacity: 0}
+    }
+
+    @keyframes Had_He_part_2
+    {
+      from{transform: scale(1.0);opacity: 1}
+      to{transform: scale(2);opacity: 0}
+    }
+
+    .playBtn:hover 
+    {
+      background: blue;
+    }
+
+    .playBtn:hover i 
+    {
+      color:#fff;
+      font-size: 20px;
+    }
+
+
+    .fa-play
+    {
+      text-align: center;
+      margin-right:150px;
+      margin-left: 35px;
+
+    }
+
+   
+    .test
+    {
+      height: 400px;
+      width: 45%;
+      background: ;
+      padding: 50px 50px;
+      margin-left: 570px;
+      margin-bottom:-100px;
+      margin-top: -480px;
+    }
+
+    .div100
+    {
+      height:5px;
+      width:100%;
+      background: rebeccapurple;
+      margin-top: 50px;
+      border-radius:10px;
+    }
+
+    .div80
+    {
+      height:5px;
+      width:100%;
+      background:gray;
+      margin-top: 50px;
+      border-radius:10px;
+       
+    }
+    .div85
+    {
+      height:5px;
+      width:100%;
+      background:gray;
+      margin-top: 50px;
+      border-radius:10px;
+    }
+
+    .sub80
+    {
+      height:5px;
+      width:80%;
+      background: rebeccapurple;
+    }
+    .sub85
+    {
+      height:5px;
+      width:85%;
+      background: rebeccapurple;
+    }
+
+    .me
+    {
+      
+      margin: 10px 10px;
+      text-align: left;
+
+    }
+    .me100
+    {
+      text-align: right;
+    }
+
+    .premium
+    {
+      height:400px;
+      width: 100%;
+      background:;
+      margin-top: 1000px;
+      margin-left: -1050px;
+      padding: 50PX;
+      font-size: 25PX;
+      line-height: 60px;
+    }
+
+    .see
+    {
+      text-align: center;
+      background: blueviolet;
+      padding: 15px;
+      border-radius: 50px;
+      border-style: none;
+      margin-left:100px;
+
+    }
+    .img19
+    {
+      height:250px;
+      width:200px;
+      margin-left: 250px;
+    margin-top: -300px;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    }
+
+    .img49
+    {
+      height:350px;
+      width:200px;
+      margin-left: 700px;
+    margin-top: -350px;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    }
+    .part1
+    {
+      height: 300px;
+      width: 100%;
+      background: ghostwhite;
+      margin-top: 1500px;
+      margin-left: -1050px;
+      padding:50px;
+      line-height: 30px;
+      display: flex;
+    }
+
+    .part2
+    {
+      line-height: 30px;
+      font-size: 25px;
+    }
+
+    .part3
+    {
+      line-height: 30px;
+      margin-left: 250px;
+    }
+    .the
+    {
+      height: 400px;
+      width: 100%;
+      background:ghostwhite;
+      margin-top: 500px;
+      margin-left: -1100px;
+      display: flex;
+      padding: 10px;
+
+    }
+
+    .NeedHelp
+    {
+      list-style: none;
+      text-decoration: none;
+      margin-left: 100px;
+    }
+    .LearnMore
+    {
+      list-style: none;
+       margin-left: 100px;
+    }
+    .GetinTouch
+    {
+      list-style: none;
+       margin-left: 100px;
+    }
+
+    .class
+    {
+      height: 200px;
+      width:100%;
+      background: ghostwhite;
+      margin-top:1000px;
+      margin-left: -950px;
+    }
+    .I1
+    {
+      margin-left: 800PX;
+      margin-top: -23PX;
+    }
+
+     .bring12
+    {
+      height:400px;
+      width: 50%;
+      background: URL(C:/Users/admin/Desktop/Ravi_Github/sandbox1111/sandbox1111/images/about12.jpg);
+      background-size: 100% 100%;
+      box-shadow: 10px 15px 1px skyblue;
+      border-radius:10px;
+
+    }
+
+
+
